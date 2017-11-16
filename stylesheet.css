@@ -3,9 +3,16 @@ p {
 }
 
 p {
-    color: #FFFFFF; 
+    color: #FFFFFF; /* this is the hexadecimal value of color white */
 }
 
-p {
-    background-color: #000000;
+body {
+    background-color: #000000; /* this is the hexadecimal value of color black */
 }
+
+<div class="parent" style="color:orange;">
+    <p>I will have an orange color</p>
+    <div class="child">
+        <p>I am an orange child</p>
+    </div>
+</div>
